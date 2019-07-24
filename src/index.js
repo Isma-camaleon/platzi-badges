@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-//const element = <h1>Hello, Platzi Badges!</h1>;
-const element = React.createElement('h1',{},'Hola, Soy los childen.');
+const name = "Ismael Cuevas";
+const element = <h1>Hello, My name is {name}</h1>;
+//const element = React.createElement('h1',{},`Hola, mi nombre es ${name}`);
 
 const container = document.getElementById('app');
 
